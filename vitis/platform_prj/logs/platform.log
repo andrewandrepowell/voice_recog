@@ -1,0 +1,1042 @@
+TRACE::2020-01-02.00:15:18::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:18::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:18::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-01-02.00:15:24::SCWPlatform::Opened new HwDB with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWWriter::formatted JSON is {
+	"platformName":	"platform_prj",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"platform_prj",
+	"platHandOff":	"C:/workspace/voice_recog/vivado/block_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/block_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-01-02.00:15:24::SCWWriter::formatted JSON is {
+	"platformName":	"platform_prj",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"platform_prj",
+	"platHandOff":	"C:/workspace/voice_recog/vivado/block_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/block_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"platform_prj",
+	"systems":	[{
+			"systemName":	"platform_prj",
+			"systemDesc":	"platform_prj",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"platform_prj"
+		}]
+}
+TRACE::2020-01-02.00:15:24::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-01-02.00:15:24::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2020-01-02.00:15:24::SCWWriter::formatted JSON is {
+	"platformName":	"platform_prj",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"platform_prj",
+	"platHandOff":	"C:/workspace/voice_recog/vivado/block_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/block_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"platform_prj",
+	"systems":	[{
+			"systemName":	"platform_prj",
+			"systemDesc":	"platform_prj",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"platform_prj"
+		}]
+}
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:24::SCWDomain::checking for install qemu data   : 
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:24::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-01-02.00:15:24::SCWMssOS::No sw design opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::mss does not exists at C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::Creating sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::Adding the swdes entry, created swdb C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss with des name C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::updating the scw layer changes to swdes at   C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::Writing mss at C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::Completed writing the mss file at C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-01-02.00:15:24::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-01-02.00:15:24::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:24::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-01-02.00:15:24::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:24::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-01-02.00:15:24::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:24::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-01-02.00:15:24::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWWriter::formatted JSON is {
+	"platformName":	"platform_prj",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"platform_prj",
+	"platHandOff":	"C:/workspace/voice_recog/vivado/block_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/block_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"platform_prj",
+	"systems":	[{
+			"systemName":	"platform_prj",
+			"systemDesc":	"platform_prj",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"platform_prj",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx_domain",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:24::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-01-02.00:15:24::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:24::SCWMssOS::Completed writing the mss file at C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-01-02.00:15:24::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2020-01-02.00:15:45::SCWPlatform::Started generating the artifacts platform platform_prj
+TRACE::2020-01-02.00:15:45::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-01-02.00:15:45::SCWPlatform::Started generating the artifacts for system configuration platform_prj
+LOG::2020-01-02.00:15:45::SCWSystem::Checking the domain freertos10_xilinx_domain
+LOG::2020-01-02.00:15:45::SCWSystem::Not a boot domain 
+LOG::2020-01-02.00:15:45::SCWSystem::Started Processing the domain freertos10_xilinx_domain
+TRACE::2020-01-02.00:15:45::SCWDomain::Generating domain artifcats
+TRACE::2020-01-02.00:15:45::SCWMssOS::Generating standalone artifcats
+TRACE::2020-01-02.00:15:45::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-01-02.00:15:45::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:45::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:45::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:45::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:45::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:45::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:45::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:45::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:45::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:45::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+KEYINFO::2020-01-02.00:15:45::SCWMssOS::Could not open the swdb for C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+KEYINFO::2020-01-02.00:15:45::SCWMssOS::Could not open the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss is not found
+
+TRACE::2020-01-02.00:15:45::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-01-02.00:15:45::SCWMssOS::No sw design opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:45::SCWMssOS::mss exists loading the mss file  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:45::SCWMssOS::Opened the sw design from mss  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:45::SCWMssOS::Adding the swdes entry C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss with des name system
+TRACE::2020-01-02.00:15:45::SCWMssOS::updating the scw layer about changes
+TRACE::2020-01-02.00:15:45::SCWMssOS::Opened the sw design.  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:45::SCWMssOS::Completed writing the mss file at C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-01-02.00:15:45::SCWMssOS::Mss edits present, copying mssfile into export location C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-01-02.00:15:46::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-01-02.00:15:46::SCWDomain::Skipping the build for domain :  freertos10_xilinx_domain
+TRACE::2020-01-02.00:15:46::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-01-02.00:15:46::SCWMssOS::Copying to export directory.
+TRACE::2020-01-02.00:15:46::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-01-02.00:15:46::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-01-02.00:15:46::SCWSystem::Completed Processing the domain freertos10_xilinx_domain
+LOG::2020-01-02.00:15:46::SCWSystem::Completed Processing the sysconfig platform_prj
+LOG::2020-01-02.00:15:46::SCWPlatform::Completed generating the artifacts for system configuration platform_prj
+TRACE::2020-01-02.00:15:46::SCWPlatform::Started preparing the platform 
+TRACE::2020-01-02.00:15:46::SCWSystem::Writing the bif file for system config platform_prj
+TRACE::2020-01-02.00:15:46::SCWSystem::dir created 
+TRACE::2020-01-02.00:15:46::SCWSystem::Writing the bif 
+TRACE::2020-01-02.00:15:46::SCWPlatform::Started writing the spfm file 
+TRACE::2020-01-02.00:15:46::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-01-02.00:15:46::SCWPlatform::Completed generating the platform
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWWriter::formatted JSON is {
+	"platformName":	"platform_prj",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"platform_prj",
+	"platHandOff":	"C:/workspace/voice_recog/vivado/block_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/block_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"platform_prj",
+	"systems":	[{
+			"systemName":	"platform_prj",
+			"systemDesc":	"platform_prj",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"platform_prj",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx_domain",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"49f5de183bddd3599a8d7aee93a91597",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-01-02.00:15:46::SCWPlatform::updated the xpfm file.
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWWriter::formatted JSON is {
+	"platformName":	"platform_prj",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"platform_prj",
+	"platHandOff":	"C:/workspace/voice_recog/vivado/block_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/block_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"platform_prj",
+	"systems":	[{
+			"systemName":	"platform_prj",
+			"systemDesc":	"platform_prj",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"platform_prj",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx_domain",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"49f5de183bddd3599a8d7aee93a91597",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWWriter::formatted JSON is {
+	"platformName":	"platform_prj",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"platform_prj",
+	"platHandOff":	"C:/workspace/voice_recog/vivado/block_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/block_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"platform_prj",
+	"systems":	[{
+			"systemName":	"platform_prj",
+			"systemDesc":	"platform_prj",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"platform_prj",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"49f5de183bddd3599a8d7aee93a91597",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Opened existing hwdb block_design_wrapper_0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:46::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:46::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWWriter::formatted JSON is {
+	"platformName":	"platform_prj",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"platform_prj",
+	"platHandOff":	"C:/workspace/voice_recog/vivado/block_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/block_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"platform_prj",
+	"systems":	[{
+			"systemName":	"platform_prj",
+			"systemDesc":	"platform_prj",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"platform_prj",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"49f5de183bddd3599a8d7aee93a91597",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-01-02.00:15:46::SCWPlatform::Clearing the existing platform
+TRACE::2020-01-02.00:15:46::SCWSystem::Clearing the existing sysconfig
+TRACE::2020-01-02.00:15:46::SCWMssOS::Removing the swdes entry for  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:46::SCWSystem::Clearing the domains completed.
+TRACE::2020-01-02.00:15:46::SCWPlatform::Clearing the opened hw db.
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform location is C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Removing the HwDB with name C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:46::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-01-02.00:15:47::SCWPlatform::Opened new HwDB with name block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWReader::Active system found as  platform_prj
+TRACE::2020-01-02.00:15:47::SCWReader::Handling sysconfig platform_prj
+TRACE::2020-01-02.00:15:47::SCWDomain::checking for install qemu data   : 
+TRACE::2020-01-02.00:15:47::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:47::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:47::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWPlatform::Opened existing hwdb block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:47::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:47::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:47::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWPlatform::Opened existing hwdb block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:47::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:47::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:47::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWPlatform::Opened existing hwdb block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:47::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:47::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-01-02.00:15:47::SCWMssOS::No sw design opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:47::SCWMssOS::mss exists loading the mss file  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:47::SCWMssOS::Opened the sw design from mss  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:47::SCWMssOS::Adding the swdes entry C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss with des name system
+TRACE::2020-01-02.00:15:47::SCWMssOS::updating the scw layer about changes
+TRACE::2020-01-02.00:15:47::SCWMssOS::Opened the sw design.  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:47::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-01-02.00:15:47::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-01-02.00:15:47::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:47::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:47::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWPlatform::Opened existing hwdb block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:47::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:47::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:47::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:47::SCWReader::No isolation master present  
+TRACE::2020-01-02.00:15:47::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:47::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:47::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWPlatform::Opened existing hwdb block_design_wrapper_1
+TRACE::2020-01-02.00:15:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:47::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:47::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:47::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:49::SCWMssOS::In reload Mss file.
+TRACE::2020-01-02.00:15:49::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:49::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:49::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:49::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:49::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:49::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_1
+TRACE::2020-01-02.00:15:49::SCWPlatform::Opened existing hwdb block_design_wrapper_1
+TRACE::2020-01-02.00:15:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:49::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:49::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+KEYINFO::2020-01-02.00:15:49::SCWMssOS::Could not open the swdb for system
+KEYINFO::2020-01-02.00:15:49::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2020-01-02.00:15:49::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-01-02.00:15:49::SCWMssOS::No sw design opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:49::SCWMssOS::mss exists loading the mss file  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:49::SCWMssOS::Opened the sw design from mss  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:49::SCWMssOS::Adding the swdes entry C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss with des name system
+TRACE::2020-01-02.00:15:49::SCWMssOS::updating the scw layer about changes
+TRACE::2020-01-02.00:15:49::SCWMssOS::Opened the sw design.  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:49::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:49::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:49::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:49::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:15:49::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:15:49::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:15:49::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_1
+TRACE::2020-01-02.00:15:49::SCWPlatform::Opened existing hwdb block_design_wrapper_1
+TRACE::2020-01-02.00:15:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:15:49::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:49::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:15:49::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:15:49::SCWMssOS::Removing the swdes entry for  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+LOG::2020-01-02.00:19:12::SCWPlatform::Started generating the artifacts platform platform_prj
+TRACE::2020-01-02.00:19:12::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-01-02.00:19:12::SCWPlatform::Started generating the artifacts for system configuration platform_prj
+LOG::2020-01-02.00:19:12::SCWSystem::Checking the domain freertos10_xilinx_domain
+LOG::2020-01-02.00:19:12::SCWSystem::Not a boot domain 
+LOG::2020-01-02.00:19:12::SCWSystem::Started Processing the domain freertos10_xilinx_domain
+TRACE::2020-01-02.00:19:12::SCWDomain::Generating domain artifcats
+TRACE::2020-01-02.00:19:12::SCWMssOS::Generating standalone artifcats
+TRACE::2020-01-02.00:19:12::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-01-02.00:19:12::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:12::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:12::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:12::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:19:12::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:19:12::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_1
+TRACE::2020-01-02.00:19:12::SCWPlatform::Opened existing hwdb block_design_wrapper_1
+TRACE::2020-01-02.00:19:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:19:12::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:19:12::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-01-02.00:19:12::SCWMssOS::No sw design opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:19:12::SCWMssOS::mss exists loading the mss file  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:19:12::SCWMssOS::Opened the sw design from mss  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:19:12::SCWMssOS::Adding the swdes entry C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss with des name system
+TRACE::2020-01-02.00:19:12::SCWMssOS::updating the scw layer about changes
+TRACE::2020-01-02.00:19:12::SCWMssOS::Opened the sw design.  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:19:12::SCWMssOS::Completed writing the mss file at C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-01-02.00:19:12::SCWMssOS::Mss edits present, copying mssfile into export location C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:19:12::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-01-02.00:19:12::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-01-02.00:19:12::SCWDomain::Building the domain as part of full build :  freertos10_xilinx_domain
+TRACE::2020-01-02.00:19:12::SCWMssOS::doing bsp build ... 
+TRACE::2020-01-02.00:19:12::SCWMssOS::System Command Ran  C: & cd  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp & make 
+TRACE::2020-01-02.00:19:12::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-01-02.00:19:12::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-01-02.00:19:12::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2020-01-02.00:19:12::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:12::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-01-02.00:19:12::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-01-02.00:19:12::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2020-01-02.00:19:12::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:12::SCWMssOS::"Running Make include in microblaze_0/libsrc/freertos10_xilinx_v1_4/src"
+
+TRACE::2020-01-02.00:19:12::SCWMssOS::make -C microblaze_0/libsrc/freertos10_xilinx_v1_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2020-01-02.00:19:12::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compa
+TRACE::2020-01-02.00:19:12::SCWMssOS::re" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:12::SCWMssOS::"include"
+
+TRACE::2020-01-02.00:19:13::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-01-02.00:19:13::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-01-02.00:19:13::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-01-02.00:19:13::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:13::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-01-02.00:19:13::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-01-02.00:19:13::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+TRACE::2020-01-02.00:19:13::SCWMssOS::COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:13::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-01-02.00:19:13::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-01-02.00:19:13::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2020-01-02.00:19:13::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:14::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-01-02.00:19:14::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-01-02.00:19:14::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2020-01-02.00:19:14::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:14::SCWMssOS::"Compiling bram"
+
+TRACE::2020-01-02.00:19:14::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-01-02.00:19:14::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-01-02.00:19:14::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2020-01-02.00:19:14::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:15::SCWMssOS::"Compiling cpu"
+
+TRACE::2020-01-02.00:19:15::SCWMssOS::"Running Make libs in microblaze_0/libsrc/freertos10_xilinx_v1_4/src"
+
+TRACE::2020-01-02.00:19:15::SCWMssOS::make -C microblaze_0/libsrc/freertos10_xilinx_v1_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2020-01-02.00:19:15::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare"
+TRACE::2020-01-02.00:19:15::SCWMssOS:: "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:15::SCWMssOS::"Compiling standalone";
+
+TRACE::2020-01-02.00:19:19::SCWMssOS::"Compiling FreeRTOS"
+
+TRACE::2020-01-02.00:19:22::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-01-02.00:19:22::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2020-01-02.00:19:22::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-01-02.00:19:22::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:22::SCWMssOS::"Compiling intc"
+
+TRACE::2020-01-02.00:19:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-01-02.00:19:23::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2020-01-02.00:19:23::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COM
+TRACE::2020-01-02.00:19:23::SCWMssOS::PILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:23::SCWMssOS::"Compiling tmrctr"
+
+TRACE::2020-01-02.00:19:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-01-02.00:19:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-01-02.00:19:24::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-01-02.00:19:24::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-01-02.00:19:24::SCWMssOS::"Compiling uartlite"
+
+TRACE::2020-01-02.00:19:25::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-01-02.00:19:25::SCWMssOS::Copying to export directory.
+TRACE::2020-01-02.00:19:26::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-01-02.00:19:26::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-01-02.00:19:26::SCWSystem::Completed Processing the domain freertos10_xilinx_domain
+LOG::2020-01-02.00:19:26::SCWSystem::Completed Processing the sysconfig platform_prj
+LOG::2020-01-02.00:19:26::SCWPlatform::Completed generating the artifacts for system configuration platform_prj
+TRACE::2020-01-02.00:19:26::SCWPlatform::Started preparing the platform 
+TRACE::2020-01-02.00:19:26::SCWSystem::Writing the bif file for system config platform_prj
+TRACE::2020-01-02.00:19:26::SCWSystem::dir created 
+TRACE::2020-01-02.00:19:26::SCWSystem::Writing the bif 
+TRACE::2020-01-02.00:19:26::SCWPlatform::Started writing the spfm file 
+TRACE::2020-01-02.00:19:26::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-01-02.00:19:26::SCWPlatform::Completed generating the platform
+TRACE::2020-01-02.00:19:26::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:26::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:26::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:26::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:19:26::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:26::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:19:26::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_1
+TRACE::2020-01-02.00:19:26::SCWPlatform::Opened existing hwdb block_design_wrapper_1
+TRACE::2020-01-02.00:19:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:19:26::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:19:26::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:19:26::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:19:26::SCWWriter::formatted JSON is {
+	"platformName":	"platform_prj",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"platform_prj",
+	"platHandOff":	"C:/workspace/voice_recog/vivado/block_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/block_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"platform_prj",
+	"systems":	[{
+			"systemName":	"platform_prj",
+			"systemDesc":	"platform_prj",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"platform_prj",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"49f5de183bddd3599a8d7aee93a91597",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-01-02.00:19:26::SCWPlatform::updated the xpfm file.
+TRACE::2020-01-02.00:19:26::SCWPlatform::Trying to open the hw design at C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:26::SCWPlatform::DSA given C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:26::SCWPlatform::DSA absoulate path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:26::SCWPlatform::DSA directory C:/workspace/voice_recog/vitis/platform_prj/hw
+TRACE::2020-01-02.00:19:26::SCWPlatform:: Platform Path C:/workspace/voice_recog/vitis/platform_prj/hw/block_design_wrapper.xsa
+TRACE::2020-01-02.00:19:26::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-01-02.00:19:26::SCWPlatform::Trying to set the existing hwdb with name block_design_wrapper_1
+TRACE::2020-01-02.00:19:26::SCWPlatform::Opened existing hwdb block_design_wrapper_1
+TRACE::2020-01-02.00:19:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-01-02.00:19:26::SCWMssOS::Checking the sw design at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-01-02.00:19:26::SCWMssOS::DEBUG:  swdes dump  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-01-02.00:19:26::SCWMssOS::Sw design exists and opened at  C:/workspace/voice_recog/vitis/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/system.mss

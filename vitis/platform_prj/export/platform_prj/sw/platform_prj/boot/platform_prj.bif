@@ -1,0 +1,6 @@
+/*platform_prj*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}
