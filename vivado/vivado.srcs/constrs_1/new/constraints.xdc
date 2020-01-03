@@ -229,17 +229,17 @@ set_property -dict {PACKAGE_PIN C12 IOSTANDARD LVCMOS33} [get_ports reset_rtl_0]
 
 #SMSC Ethernet PHY
 
-#set_property -dict {PACKAGE_PIN C9 IOSTANDARD LVCMOS33} [get_ports mdio_rtl_mdc]
-#set_property -dict {PACKAGE_PIN A9 IOSTANDARD LVCMOS33} [get_ports mdio_rtl_mdio_io]
+set_property -dict {PACKAGE_PIN C9 IOSTANDARD LVCMOS33} [get_ports mdio_rtl_0_mdc]
+set_property -dict {PACKAGE_PIN A9 IOSTANDARD LVCMOS33} [get_ports mdio_rtl_0_mdio_io]
 #set_property -dict { PACKAGE_PIN B3    IOSTANDARD LVCMOS33 } [get_ports { ETH_RSTN }]; #IO_L10P_T1_AD15P_35 Sch=eth_rstn
-#set_property -dict {PACKAGE_PIN D9 IOSTANDARD LVCMOS33} [get_ports rmii_rtl_crs_dv]
-#set_property -dict {PACKAGE_PIN C10 IOSTANDARD LVCMOS33} [get_ports rmii_rtl_rx_er]
-#set_property -dict {PACKAGE_PIN C11 IOSTANDARD LVCMOS33} [get_ports {rmii_rtl_rxd[0]}]
-#set_property -dict {PACKAGE_PIN D10 IOSTANDARD LVCMOS33} [get_ports {rmii_rtl_rxd[1]}]
-#set_property -dict {PACKAGE_PIN B9 IOSTANDARD LVCMOS33} [get_ports rmii_rtl_tx_en]
-#set_property -dict {PACKAGE_PIN A10 IOSTANDARD LVCMOS33} [get_ports {rmii_rtl_txd[0]}]
-#set_property -dict {PACKAGE_PIN A8 IOSTANDARD LVCMOS33} [get_ports {rmii_rtl_txd[1]}]
-#set_property -dict {PACKAGE_PIN D5 IOSTANDARD LVCMOS33} [get_ports eth_ref_clk]
+set_property -dict {PACKAGE_PIN D9 IOSTANDARD LVCMOS33} [get_ports phy2rmii_crs_dv]
+set_property -dict {PACKAGE_PIN C10 IOSTANDARD LVCMOS33} [get_ports phy2rmii_rx_er]
+set_property -dict {PACKAGE_PIN C11 IOSTANDARD LVCMOS33} [get_ports {phy2rmii_rxd[0]}]
+set_property -dict {PACKAGE_PIN D10 IOSTANDARD LVCMOS33} [get_ports {phy2rmii_rxd[1]}]
+set_property -dict {PACKAGE_PIN B9 IOSTANDARD LVCMOS33} [get_ports rmii2phy_tx_en]
+set_property -dict {PACKAGE_PIN A10 IOSTANDARD LVCMOS33} [get_ports {rmii2phy_txd[0]}]
+set_property -dict {PACKAGE_PIN A8 IOSTANDARD LVCMOS33} [get_ports {rmii2phy_txd[1]}]
+set_property -dict {PACKAGE_PIN D5 IOSTANDARD LVCMOS33} [get_ports clk_50MHz_ref]
 #set_property -dict { PACKAGE_PIN B8    IOSTANDARD LVCMOS33 } [get_ports { ETH_INTN }]; #IO_L12P_T1_MRCC_16 Sch=eth_intn
 
 

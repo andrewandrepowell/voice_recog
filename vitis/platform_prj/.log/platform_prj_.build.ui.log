@@ -1,6 +1,6 @@
-2020-01-02T00:19:09.934725800255-00:19:09 **** Build of project platform_prj ****
-000-buildplatform.bat 50583 platform_prj  
-000-XSDB Server Channel: tcfchan#1
+2020-01-03T03:36:45.430435700255-03:36:45 **** Build of project platform_prj ****
+000-buildplatform.bat 59810 platform_prj  
+000-XSDB Server Channel: tcfchan#18
 000-Building the BSP Library for domain  - freertos10_xilinx_domain on processor microblaze_0
 000-"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
 000-
@@ -13,6 +13,12 @@
 000-make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
 000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
 000-MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/emaclite_v4_4/src"
+000-
+000-make -C microblaze_0/libsrc/emaclite_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+000-A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
 000-
 000-"Running Make include in microblaze_0/libsrc/freertos10_xilinx_v1_4/src"
 000-
@@ -27,6 +33,12 @@
 000-make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
 000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
 000-OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/lwip211_v1_1/src"
+000-
+000-make -C microblaze_0/libsrc/lwip211_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+000-ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+000-_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
 000-
 000-"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
 000-
@@ -57,6 +69,14 @@
 000-
 000-"Compiling cpu"
 000-
+000-"Running Make libs in microblaze_0/libsrc/emaclite_v4_4/src"
+000-
+000-make -C microblaze_0/libsrc/emaclite_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+000-OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Compiling emaclite"
+000-
 000-"Running Make libs in microblaze_0/libsrc/freertos10_xilinx_v1_4/src"
 000-
 000-make -C microblaze_0/libsrc/freertos10_xilinx_v1_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
@@ -79,6 +99,22 @@
 000-
 000-"Compiling intc"
 000-
+000-"Running Make libs in microblaze_0/libsrc/lwip211_v1_1/src"
+000-
+000-make -C microblaze_0/libsrc/lwip211_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+000-MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Compiling lwip src and adapter files"
+000-
+000-contrib/ports/xilinx/netif/xadapter.c: In function 'eth_link_detect':
+000/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/contrib/ports/xilinx/netif/xadapter.c364-1-1unused variable 'link_speed' [-Wunused-variable]1-contrib/ports/xilinx/netif/xadapter.c:364:8: warning: unused variable 'link_speed' [-Wunused-variable]
+000-  u32_t link_speed, phy_link_status;
+000-        ^~~~~~~~~~
+000-contrib/ports/xilinx/netif/xemacliteif.c: In function 'arp_timer':
+000/platform_prj/microblaze_0/freertos10_xilinx_domain/bsp/microblaze_0/libsrc/lwip211_v1_1/src/contrib/ports/xilinx/netif/xemacliteif.c476-1-1unused parameter 'arg' [-Wunused-parameter]1-contrib/ports/xilinx/netif/xemacliteif.c:476:17: warning: unused parameter 'arg' [-Wunused-parameter]
+000- arp_timer(void *arg)
+000-           ~~~~~~^~~
 000-"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
 000-
 000-make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
@@ -98,5 +134,5 @@
 000-'Finished building libraries'
 000-
 00255-
-00:19:26 Build Finished (took 16s.216ms)
+03:37:21 Build Finished (took 35s.609ms)
 

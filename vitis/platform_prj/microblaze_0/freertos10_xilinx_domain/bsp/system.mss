@@ -22,6 +22,12 @@ END
 
 
 BEGIN DRIVER
+ PARAMETER DRIVER_NAME = emaclite
+ PARAMETER DRIVER_VER = 4.4
+ PARAMETER HW_INSTANCE = axi_ethernetlite_0
+END
+
+BEGIN DRIVER
  PARAMETER DRIVER_NAME = tmrctr
  PARAMETER DRIVER_VER = 4.5
  PARAMETER HW_INSTANCE = axi_timer_0
@@ -49,6 +55,20 @@ BEGIN DRIVER
  PARAMETER DRIVER_NAME = bram
  PARAMETER DRIVER_VER = 4.3
  PARAMETER HW_INSTANCE = microblaze_0_local_memory_ilmb_bram_if_cntlr
+END
+
+
+BEGIN LIBRARY
+ PARAMETER LIBRARY_NAME = lwip211
+ PARAMETER LIBRARY_VER = 1.1
+ PARAMETER PROC_INSTANCE = microblaze_0
+ PARAMETER api_mode = SOCKET_API
+ PARAMETER default_tcp_recvmbox_size = 32
+ PARAMETER default_udp_recvmbox_size = 16
+ PARAMETER mem_size = 8192
+ PARAMETER pbuf_pool_bufsize = 256
+ PARAMETER pbuf_pool_size = 16
+ PARAMETER tcpip_mbox_size = 128
 END
 
 

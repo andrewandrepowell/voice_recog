@@ -3,7 +3,7 @@
 	<name>system_prj</name>
 	<comment></comment>
 	<projects>
-		<project>application_prj</project>
+		<project>hello_world_prj</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
