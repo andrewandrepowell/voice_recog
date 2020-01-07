@@ -57,10 +57,10 @@ wire [3:0] mii_rtl_0_txd;
   
 mii_to_rmii # (
     .C_FIXED_SPEED     (1'd1              ),
-    .C_INCLUDE_BUF     (0                 ),
+    .C_INCLUDE_BUF     (1                 ),
     .C_SPEED_100       (1'd1              ))
 mii_to_rmii_inst (
-    .rst_n             (mii_rtl_0_rst_n   ),
+    .rst_n             (rstn_50MHz_ref    ),
     .ref_clk           (clk_50MHz_ref     ),
     .mac2rmii_tx_en    (mii_rtl_0_tx_en   ),
     .mac2rmii_txd      (mii_rtl_0_txd     ),
