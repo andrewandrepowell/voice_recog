@@ -21,6 +21,20 @@
 
 
 module top (
+    DDR2_0_addr,
+    DDR2_0_ba,
+    DDR2_0_cas_n,
+    DDR2_0_ck_n,
+    DDR2_0_ck_p,
+    DDR2_0_cke,
+    DDR2_0_cs_n,
+    DDR2_0_dm,
+    DDR2_0_dq,
+    DDR2_0_dqs_n,
+    DDR2_0_dqs_p,
+    DDR2_0_odt,
+    DDR2_0_ras_n,
+    DDR2_0_we_n,
     clk_100MHz,
     clk_50MHz_ref,
     mdio_rtl_0_mdc,
@@ -32,6 +46,20 @@ module top (
     rmii2phy_tx_en,
     reset_rtl_0);
     
+output [12:0]DDR2_0_addr;
+output [2:0] DDR2_0_ba;
+output       DDR2_0_cas_n;
+output [0:0] DDR2_0_ck_n;
+output [0:0] DDR2_0_ck_p;
+output [0:0] DDR2_0_cke;
+output [0:0] DDR2_0_cs_n;
+output [1:0] DDR2_0_dm;
+inout [15:0] DDR2_0_dq;
+inout  [1:0] DDR2_0_dqs_n;
+inout  [1:0] DDR2_0_dqs_p;
+output [0:0] DDR2_0_odt;
+output       DDR2_0_ras_n;
+output       DDR2_0_we_n;
 input        clk_100MHz;
 output       clk_50MHz_ref;
 output       mdio_rtl_0_mdc;
@@ -79,6 +107,20 @@ mii_to_rmii_inst (
     .rmii2phy_tx_en    (rmii2phy_tx_en    ));
     
 block_design_wrapper block_design_wrapper_inst (
+    .DDR2_0_addr         (DDR2_0_addr        ),            
+    .DDR2_0_ba           (DDR2_0_ba          ),            
+    .DDR2_0_cas_n        (DDR2_0_cas_n       ),            
+    .DDR2_0_ck_n         (DDR2_0_ck_n        ),            
+    .DDR2_0_ck_p         (DDR2_0_ck_p        ),            
+    .DDR2_0_cke          (DDR2_0_cke         ),            
+    .DDR2_0_cs_n         (DDR2_0_cs_n        ),          
+    .DDR2_0_dm           (DDR2_0_dm          ),           
+    .DDR2_0_dq           (DDR2_0_dq          ),            
+    .DDR2_0_dqs_n        (DDR2_0_dqs_n       ),            
+    .DDR2_0_dqs_p        (DDR2_0_dqs_p       ),            
+    .DDR2_0_odt          (DDR2_0_odt         ),            
+    .DDR2_0_ras_n        (DDR2_0_ras_n       ),            
+    .DDR2_0_we_n         (DDR2_0_we_n        ),            
     .clk_100MHz          (clk_100MHz         ),
     .clk_50MHz_ref       (clk_50MHz_ref      ),
     .mdio_rtl_0_mdc      (mdio_rtl_0_mdc     ),
