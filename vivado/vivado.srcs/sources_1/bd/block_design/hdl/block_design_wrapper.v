@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-//Date        : Wed Jan  8 03:08:00 2020
+//Date        : Thu Jan  9 00:29:34 2020
 //Host        : LAPTOP-FGM1KMD7 running 64-bit major release  (build 9200)
 //Command     : generate_target block_design_wrapper.bd
 //Design      : block_design_wrapper
@@ -28,6 +28,9 @@ module block_design_wrapper
     clk_50MHz_ref,
     mdio_rtl_0_mdc,
     mdio_rtl_0_mdio_io,
+    mic_miso,
+    mic_sck,
+    mic_ss,
     mii_rtl_0_col,
     mii_rtl_0_crs,
     mii_rtl_0_rst_n,
@@ -58,6 +61,9 @@ module block_design_wrapper
   output clk_50MHz_ref;
   output mdio_rtl_0_mdc;
   inout mdio_rtl_0_mdio_io;
+  input mic_miso;
+  output mic_sck;
+  output mic_ss;
   input mii_rtl_0_col;
   input mii_rtl_0_crs;
   output mii_rtl_0_rst_n;
@@ -92,6 +98,9 @@ module block_design_wrapper
   wire mdio_rtl_0_mdio_io;
   wire mdio_rtl_0_mdio_o;
   wire mdio_rtl_0_mdio_t;
+  wire mic_miso;
+  wire mic_sck;
+  wire mic_ss;
   wire mii_rtl_0_col;
   wire mii_rtl_0_crs;
   wire mii_rtl_0_rst_n;
@@ -126,6 +135,9 @@ module block_design_wrapper
         .mdio_rtl_0_mdio_i(mdio_rtl_0_mdio_i),
         .mdio_rtl_0_mdio_o(mdio_rtl_0_mdio_o),
         .mdio_rtl_0_mdio_t(mdio_rtl_0_mdio_t),
+        .mic_miso(mic_miso),
+        .mic_sck(mic_sck),
+        .mic_ss(mic_ss),
         .mii_rtl_0_col(mii_rtl_0_col),
         .mii_rtl_0_crs(mii_rtl_0_crs),
         .mii_rtl_0_rst_n(mii_rtl_0_rst_n),

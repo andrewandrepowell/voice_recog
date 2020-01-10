@@ -103,12 +103,12 @@ set_property -dict {PACKAGE_PIN C12 IOSTANDARD LVCMOS33} [get_ports reset_rtl_0]
 #set_property -dict { PACKAGE_PIN G18   IOSTANDARD LVCMOS33 } [get_ports { JA[10] }]; #IO_L22P_T3_A17_15 Sch=ja[10]
 
 
-##Pmod Header JB
+#Pmod Header JB
 
-#set_property -dict {PACKAGE_PIN D14 IOSTANDARD LVCMOS33} [get_ports spi_chipselect]
+set_property -dict {PACKAGE_PIN D14 IOSTANDARD LVCMOS33} [get_ports mic_ss]
 #set_property -dict { PACKAGE_PIN F16   IOSTANDARD LVCMOS33 } [get_ports { JB[2] }]; #IO_L14N_T2_SRCC_15 Sch=jb[2]
-#set_property -dict {PACKAGE_PIN G16 IOSTANDARD LVCMOS33} [get_ports spi_data]
-#set_property -dict {PACKAGE_PIN H14 IOSTANDARD LVCMOS33} [get_ports spi_clock]
+set_property -dict {PACKAGE_PIN G16 IOSTANDARD LVCMOS33} [get_ports mic_miso]
+set_property -dict {PACKAGE_PIN H14 IOSTANDARD LVCMOS33} [get_ports mic_sck]
 #set_property -dict { PACKAGE_PIN E16   IOSTANDARD LVCMOS33 } [get_ports { JB[7] }]; #IO_L11N_T1_SRCC_15 Sch=jb[7]
 #set_property -dict { PACKAGE_PIN F13   IOSTANDARD LVCMOS33 } [get_ports { JB[8] }]; #IO_L5P_T0_AD9P_15 Sch=jb[8]
 #set_property -dict { PACKAGE_PIN G13   IOSTANDARD LVCMOS33 } [get_ports { JB[9] }]; #IO_0_15 Sch=jb[9]
@@ -268,3 +268,6 @@ set_property -dict {PACKAGE_PIN D5 IOSTANDARD LVCMOS33} [get_ports clk_50MHz_ref
 
 #create_clock -period 20.000 -name Rmii2Mac_tx_clk -waveform {0.000 6.000} [get_nets block_design_i/axi_ethernetlite_0/phy_tx_clk]
 #create_clock -period 20.000 -name Rmii2Mac_rx_clk -waveform {0.000 6.000} [get_nets block_design_i/axi_ethernetlite_0/phy_rx_clk]
+
+set_property CFGBVS VCCO [current_design]
+set_property CONFIG_VOLTAGE 3.3 [current_design]

@@ -35,6 +35,9 @@ module top (
     DDR2_0_odt,
     DDR2_0_ras_n,
     DDR2_0_we_n,
+    mic_ss,
+    mic_miso,
+    mic_sck,
     clk_100MHz,
     clk_50MHz_ref,
     mdio_rtl_0_mdc,
@@ -60,6 +63,9 @@ inout  [1:0] DDR2_0_dqs_p;
 output [0:0] DDR2_0_odt;
 output       DDR2_0_ras_n;
 output       DDR2_0_we_n;
+output       mic_ss;
+input        mic_miso;
+output       mic_sck;
 input        clk_100MHz;
 output       clk_50MHz_ref;
 output       mdio_rtl_0_mdc;
@@ -70,7 +76,7 @@ input  [1:0] phy2rmii_rxd;
 output [1:0] rmii2phy_txd;
 output       rmii2phy_tx_en;
 input        reset_rtl_0;
-  
+
 wire       rstn_50MHz_ref;
 wire       mii_rtl_0_col;
 wire       mii_rtl_0_crs;
@@ -120,7 +126,10 @@ block_design_wrapper block_design_wrapper_inst (
     .DDR2_0_dqs_p        (DDR2_0_dqs_p       ),            
     .DDR2_0_odt          (DDR2_0_odt         ),            
     .DDR2_0_ras_n        (DDR2_0_ras_n       ),            
-    .DDR2_0_we_n         (DDR2_0_we_n        ),            
+    .DDR2_0_we_n         (DDR2_0_we_n        ),   
+    .mic_miso            (mic_miso           ),
+    .mic_sck             (mic_sck            ),
+    .mic_ss              (mic_ss             ),
     .clk_100MHz          (clk_100MHz         ),
     .clk_50MHz_ref       (clk_50MHz_ref      ),
     .mdio_rtl_0_mdc      (mdio_rtl_0_mdc     ),
